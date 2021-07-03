@@ -19,7 +19,7 @@ def solve(meal_cost, tip_percent, tax_percent):
     # Write your code here
     meal_cost *= 1 + tip_percent/100 + tax_percent/100
     
-    return print(round(meal_cost, 2))
+    return print(round(meal_cost))
 
 if __name__ == '__main__':
     meal_cost = float(input().strip())
