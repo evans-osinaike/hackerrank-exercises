@@ -18,12 +18,12 @@ class Person:
         # Increment the age of the person in here
         self.initialAge += 1
 
-t = int(input())
+t = int(input('Input the number of instances you want to test the class over: '))
 for i in range(0, t):
-    age = int(input("Please input the Age: "))         
+    age = int(input('How old is the person?: '))         
     p = Person(age)  
     p.amIOld()
     for j in range(0, 3):
         p.yearPasses()       
     p.amIOld()
-    print("")
+    print("------------------------------")
