@@ -7,5 +7,5 @@ for i in range(1,n+1):
     even = input_string[::2]
     odd = input_string[1::2]
     print(f'{even} {odd}')
-
+# I really need to revisit solving this using this dictionaries...
 #print(strings)
